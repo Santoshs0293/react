@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .App {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .column:nth-child(2) {
+    background-color: #f2f2f2; /* Background color for the center column */
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Added styles */
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .column.left {
+    background-color: #fff; /* Background color for the left column */
+  }
+  
+  .column.center {
+    background-color: #f2f2f2; /* Background color for the center column */
+  }
+  
+  .column.right {
+    background-color: #fff; /* Background color for the right column */
+  }
+  
+  .center-heading {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin-top as needed */
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }

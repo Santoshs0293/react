@@ -1,0 +1,68 @@
+.full-screen {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .center-heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text-area-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .textarea-group {
+    margin-right: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  .controls-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .mic-button,
+  .translation-controls {
+    margin-right: 20px;
+  }
+  
+  .language-select,
+  .translate-button {
+    padding: 8px;
+    font-size: 1em;
+  }
+  
+  .translate-button {
+    background-color: #0a079b;
+    color: #fff;
+    cursor: pointer;
+  }
+  .mic-button button {
+    padding: 8px;
+    font-size: 1em;
+    background-color: #f32121; /* Change this color to your desired color */
+    color: #fff;
+    cursor: pointer;
+  }
+  /* Add more styles as needed */
+  

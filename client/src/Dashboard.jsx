@@ -20,6 +20,7 @@ function Dashboard() {
     return ( 
         <div>
             <h2>dashboard</h2>
+            
             <p>{suc}</p>
         </div>
 
