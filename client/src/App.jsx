@@ -6,13 +6,14 @@ import Dashboard from './Dashboard'
 import Home from './Home'
 import Logout from "./Logout";
 
+
 function App() {
 
   return (
     <div className='App'>
     <Router>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/home" element={<Home />}></Route>
         <Route path="/register" element={<Signup />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/dashboard" element={<Dashboard />}></Route>
